@@ -1,0 +1,85 @@
+nav {
+  height: 50px;
+  background-color: rgb(231, 231, 231);
+}
+
+.inline-block {
+  padding: 15px;
+  display: inline-block;
+  margin-right: 0;
+  color: aliceblue;
+  background-color: darkgray;
+}
+
+.image {  
+  width: 120px;
+  height: 120px;
+  padding-top: 40px;
+  padding-bottom: 12px;
+}
+.left {
+  float: left;
+  height: 100vh;
+  background-color: lightblue;
+  width: 30%;
+  text-align: center;
+}
+.right {
+  float: left;
+  background-color: lightgreen;
+  height: 100vh;
+  width: 70%;
+  text-align: center;
+  display: block;
+}
+
+.middle {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  background-color: #C6C6C6;
+  border-radius: 5px;
+  height: 200px;
+  width: 150px;
+  margin: 35px;
+  margin-top: 50px;
+}
+
+.menu_items {
+  text-align: left;
+  margin-left: 80px;
+  display: block;
+  margin-top: 40px;
+}
+
+
+.image_right {
+  float: left;
+  width: 120px;
+  height: 120px;
+  padding-bottom: 12px;
+  padding-right: 24px;
+  margin-left: 40px;
+}
+
+.text_left {
+  text-align: left;
+  padding-right: 80px;
+}
+
+
+.text_center {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.threeimage {
+  float: left;
+  width: 25%;
+  height: 25%;
+  padding: 24px;
+}
