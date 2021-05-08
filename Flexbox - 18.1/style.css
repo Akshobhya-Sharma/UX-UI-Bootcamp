@@ -1,8 +1,30 @@
 .parentContainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+
 }
 
 .flexChild {
+    text-align: center;
+    width: 120px;
+    color: #fff;
+    margin-left: 12px;
+    margin-right: 12px;
+}
 
+.blue {
+    background-color: rgb(0, 161, 167);
+}
+.green {
+    background-color: rgb(62, 216, 62);
+}
+.purple {
+    background-color: rgb(233, 0, 78);
+}
+
+.nav {
+    background-color: beige;
 }
